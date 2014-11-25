@@ -1,0 +1,23 @@
+header{
+    height: 50px;
+    margin:auto;
+    background-color: #363636;
+    box-shadow: 0 0 0 0 #CCD9CA;
+}
+header > ul{
+    margin: 0 auto;
+    list-style: none;
+    position: relative;
+    width: 960px;
+}
+header > ul > li{
+    display: inline-block;
+}
+header > ul > li >a{
+    display: block;
+    width: 100px;
+    padding: 14px;
+    color: #F9F8E4;
+    text-align: center;
+    text-decoration: none;
+}
